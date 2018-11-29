@@ -148,7 +148,12 @@
     <dependency>
       <artifactId>htmlunit-driver</artifactId>
       <groupId>org.seleniumhq.selenium</groupId>
-      <version>2.27</version>
+       <plugin>
+       <groupId>org.eclipse.jetty</groupId>
+       <artifactId>jetty-maven-plugin</artifactId>
+       <version>9.4.0.M0</version>
+       </plugin>
+       <version>2.27</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
